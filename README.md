@@ -7,7 +7,7 @@ Bucle principal (main): Este bucle infinito llama a tres funciones principales e
    - key_pressed(): Detecta qué tecla se ha presionado en el teclado y realiza las operaciones correspondientes.
    - calculador(): Realiza las operaciones aritméticas dependiendo del estado actual del programa y muestra el resultado en los displays de siete segmentos.
 
-en el codigo tenemos primero las librerias " 
+en el codigo tenemos primero las librerias 
  "(<stdint.h>,#include"stm32l053xx.h","cmsis_compiler.h","cmsis_gcc.h"."cmsis_version.h","core_cm0plus.h","mpu_armv7.h","system_stm32l0xx.h")  "
  
 las cuales son las responsables para llamar ciertas funciones necesarias para usart2, gpio,RCC y otras configuraciones.
