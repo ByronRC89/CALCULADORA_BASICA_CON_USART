@@ -31,3 +31,9 @@ para operar es necesario seguir los siguientes pasos, ingresar primer digito, lu
 USART2_putstring_E("operacion suma"); con esta operacion imprimimos el titulo de la operacion realizada.
 USART2_write(escrito);  aqui imprimimos en la consola el valor ASCII guardado en la variable ¨escrito¨
 
+A continuacion dejaremos un breve video que explica la funcionadidad del codigo con la placa de desarrollo stm32 y la consola serial.
+ingresa al siguiente link.
+video: https://youtu.be/T8z1FTxUo4M
+![image](https://github.com/ByronRC89/CALCULADORA_BASICA_CON_USART/assets/159856194/ff321233-05cf-4861-a1b5-7f421eeebfd1)
+
+
