@@ -9,7 +9,9 @@ Bucle principal (main): Este bucle infinito llama a tres funciones principales e
 
 en el codigo tenemos primero las librerias 
  "(<stdint.h>,#include"stm32l053xx.h","cmsis_compiler.h","cmsis_gcc.h"."cmsis_version.h","core_cm0plus.h","mpu_armv7.h","system_stm32l0xx.h")  "
+ ![image](https://github.com/ByronRC89/CALCULADORA_BASICA_CON_USART/assets/159856194/4fccc63b-427f-48fb-aa17-a4571c1549ff)
  
+
 las cuales son las responsables para llamar ciertas funciones necesarias para usart2, gpio,RCC y otras configuraciones.
 luego tenemos la llamada de funciones usart2(write,putstring,putstring_E y Read)
 luego tenemos las variables de estado para los digitos 0 que es el de entrada, digito 1 es el primer valor guardado y digito 2 es el segundo valor guardado
