@@ -3,16 +3,16 @@ Este código es un programa para un microcontrolador STM32L0 que implementa una 
 
 Se configuran los pines del microcontrolador para la comunicación USART2 y la interfaz de teclado y display de siete segmentos.
 Bucle principal (main): Este bucle infinito llama a tres funciones principales en cada iteración:
-   - keyboard_config(): Configura los pines del teclado.
-   - key_pressed(): Detecta qué tecla se ha presionado en el teclado y realiza las operaciones correspondientes.
-   - calculador(): Realiza las operaciones aritméticas dependiendo del estado actual del programa y muestra el resultado en los displays de siete segmentos.
+   -``` keyboard_config():``` Configura los pines del teclado.
+   -``` key_pressed():``` Detecta qué tecla se ha presionado en el teclado y realiza las operaciones correspondientes.
+   -``` calculador():``` Realiza las operaciones aritméticas dependiendo del estado actual del programa y muestra el resultado en los displays de siete segmentos.
 
 en el codigo tenemos primero las librerias como lo vemos en esta imagen.
  ![image](https://github.com/ByronRC89/CALCULADORA_BASICA_CON_USART/assets/159856194/4fccc63b-427f-48fb-aa17-a4571c1549ff)
  
 
 las cuales son las responsables para llamar ciertas funciones necesarias para usart2, gpio,RCC y otras configuraciones.
-luego tenemos la llamada de funciones usart2(write,putstring,putstring_E y Read)
+luego tenemos la llamada de funciones``` usart2(write,putstring,putstring_E y Read)```
 luego tenemos las variables de estado para los digitos 0 que es el de entrada, digito 1 es el primer valor guardado y digito 2 es el segundo valor guardado
 ![image](https://github.com/ByronRC89/CALCULADORA_BASICA_CON_USART/assets/159856194/df0020b5-7cb6-46f2-b825-152f62e1c246)
 
@@ -53,7 +53,7 @@ descripcion de las operaciones en la letra D
 
 
 ```USART2_putstring_E("operacion suma"){}```; con esta operacion imprimimos el titulo de la operacion realizada.
-**USART2_write("escrito")**;  aqui imprimimos en la consola el valor ASCII guardado en la variable ¨escrito¨
+```USART2_write("escrito");``` aqui imprimimos en la consola el valor ASCII guardado en la variable ¨escrito¨
 ![image](https://github.com/ByronRC89/CALCULADORA_BASICA_CON_USART/assets/159856194/8733348e-5e14-4f20-b333-607e6ba6747d)
 
 A continuacion dejaremos un breve video que explica la funcionadidad del codigo con la placa de desarrollo stm32 y la consola serial.
