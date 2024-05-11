@@ -52,7 +52,7 @@ descripcion de las operaciones en la letra D
 ![image](https://github.com/ByronRC89/CALCULADORA_BASICA_CON_USART/assets/159856194/65e61a7f-2415-43cf-bb53-4a2117407078)
 
 
-'''{USART2_putstring_E("operacion suma")}'''; con esta operacion imprimimos el titulo de la operacion realizada.
+```USART2_putstring_E("operacion suma"){}```; con esta operacion imprimimos el titulo de la operacion realizada.
 **USART2_write("escrito")**;  aqui imprimimos en la consola el valor ASCII guardado en la variable ¨escrito¨
 ![image](https://github.com/ByronRC89/CALCULADORA_BASICA_CON_USART/assets/159856194/8733348e-5e14-4f20-b333-607e6ba6747d)
 
