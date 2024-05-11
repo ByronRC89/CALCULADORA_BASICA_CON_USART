@@ -31,7 +31,7 @@ la tecla ¨*¨ es programada como un enter, que le da la instruccion de guardar 
 para operar es necesario seguir los siguientes pasos, ingresar primer digito, luego se presiona  la tecla * para poder guardar el primer valor que pasa a ser digito 2, luego se presiona el segundo digito que es guardado en digito 1, luego se presiona la operacion deseada en las teclas A, B, C, D y desplegara el resultado en los display de 7 segmentos y en la consola de comunicacion serial de 9600 baud a 16Mhz, en este caso usamos la consola arduino.
 
 USART2_putstring_E("operacion suma"); con esta operacion imprimimos el titulo de la operacion realizada.
-USART2_write(escrito);  aqui imprimimos en la consola el valor ASCII guardado en la variable ¨escrito¨
+USART2_write("escrito");  aqui imprimimos en la consola el valor ASCII guardado en la variable ¨escrito¨
 
 A continuacion dejaremos un breve video que explica la funcionadidad del codigo con la placa de desarrollo stm32 y la consola serial.
 ingresa al siguiente link.
